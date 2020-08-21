@@ -1,0 +1,31 @@
+
+
+https://drive.google.com/drive/folders/1NKf3lEKnvNXz2vqiubhJqNChuVeEszuw?usp=sharing
+
+
+
+In the link there is two zip files:
+
+	1- dataset1.2_state_classes.zip:
+		This file contains the train and valid set for the state classification challenge which includes 11 state classes in each directory.
+		Each sub-directory of the train/ and valid/ directories includes images in that class.
+
+		train/				
+		    creamy_paste/
+		    diced/	
+		    floured/	
+		    grated/	
+		    juiced/	
+		    jullienne/	
+		    mixed/	
+		    other/	
+		    peeled/	
+		    sliced/	
+		    whole/	
+
+	2- dataset1.2_object_oriented.zip
+		This file contains the train and valid set for that includes both object and state annotations. (for example: train/)
+		Each train/ and valid/ directories include sub-directories with the state annotations.		(for example: train/diced/)
+		Each state sub-directory includes sub-sub-directories of object annotations. 			(for example: train/diced/onion)
+		Each object folder includes images in of a specific object and state.				(for example: train/diced/onion/0056.jpg)
+		Therefore the 0056.jpg file would be a figure of a diced onion.
